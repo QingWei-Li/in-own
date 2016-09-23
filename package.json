@@ -1,0 +1,39 @@
+{
+  "name": "in-own",
+  "version": "0.1.0",
+  "description": "A safer hasOwnProperty wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "semi": 0
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QingWei-Li/in-own.git"
+  },
+  "keywords": [
+    "has",
+    "own",
+    "hasOwnProperty"
+  ],
+  "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QingWei-Li/in-own/issues"
+  },
+  "homepage": "https://github.com/QingWei-Li/in-own#readme",
+  "dependencies": {
+    "has-own-prop": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.14",
+    "nyc": "^8.3.0",
+    "xo": "^0.16.0"
+  }
+}
